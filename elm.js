@@ -8073,9 +8073,7 @@ var _user$project$MarkdownEditor$view = function (model) {
 				A2(
 				_elm_lang$html$Html$h1,
 				_elm_lang$core$Native_List.fromArray(
-					[
-						_elm_lang$html$Html_Attributes$align('center')
-					]),
+					[]),
 				_elm_lang$core$Native_List.fromArray(
 					[
 						_elm_lang$html$Html$text('Elm Markdown Editor')
@@ -8084,7 +8082,7 @@ var _user$project$MarkdownEditor$view = function (model) {
 				_elm_lang$html$Html$div,
 				_elm_lang$core$Native_List.fromArray(
 					[
-						_elm_lang$html$Html_Attributes$class('pane')
+						_elm_lang$html$Html_Attributes$class('pure-g panes')
 					]),
 				_elm_lang$core$Native_List.fromArray(
 					[
@@ -8092,7 +8090,7 @@ var _user$project$MarkdownEditor$view = function (model) {
 						_elm_lang$html$Html$div,
 						_elm_lang$core$Native_List.fromArray(
 							[
-								_elm_lang$html$Html_Attributes$class('edit')
+								_elm_lang$html$Html_Attributes$class('pure-u-1-2 edit')
 							]),
 						_elm_lang$core$Native_List.fromArray(
 							[
@@ -8106,22 +8104,21 @@ var _user$project$MarkdownEditor$view = function (model) {
 									]),
 								_elm_lang$core$Native_List.fromArray(
 									[]))
-							]))
-					])),
-				A2(
-				_elm_lang$html$Html$div,
-				_elm_lang$core$Native_List.fromArray(
-					[
-						_elm_lang$html$Html_Attributes$class('display'),
-						_elm_lang$html$Html_Attributes$align('left')
-					]),
-				_elm_lang$core$Native_List.fromArray(
-					[
+							])),
 						A2(
-						_evancz$elm_markdown$Markdown$toHtml,
+						_elm_lang$html$Html$div,
 						_elm_lang$core$Native_List.fromArray(
-							[]),
-						model.input)
+							[
+								_elm_lang$html$Html_Attributes$class('pure-u-1-2 display')
+							]),
+						_elm_lang$core$Native_List.fromArray(
+							[
+								A2(
+								_evancz$elm_markdown$Markdown$toHtml,
+								_elm_lang$core$Native_List.fromArray(
+									[]),
+								model.input)
+							]))
 					]))
 			]));
 };
