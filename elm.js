@@ -8036,7 +8036,7 @@ var _evancz$elm_markdown$Markdown$Options = F4(
 		return {githubFlavored: a, defaultHighlighting: b, sanitize: c, smartypants: d};
 	});
 
-var _user$project$MarkdownEditor$defaultText = '# Markdown example\n\nPut *text* here.\n\n```elm\nmain =\n  Html.text \"Syntax highlighting!\"\n```\n';
+var _user$project$MarkdownEditor$defaultText = '# Markdown example\n\n## h2\n\n### h3\n\n#### h4\n\n##### h5\n\nPut *text* here.\n\n```elm\nmain =\n  Html.text \"Syntax highlighting!\"\n```\n';
 var _user$project$MarkdownEditor$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
 };
@@ -8070,16 +8070,6 @@ var _user$project$MarkdownEditor$view = function (model) {
 			]),
 		_elm_lang$core$Native_List.fromArray(
 			[
-				A2(
-				_elm_lang$html$Html$h1,
-				_elm_lang$core$Native_List.fromArray(
-					[
-						_elm_lang$html$Html_Attributes$class('display-1')
-					]),
-				_elm_lang$core$Native_List.fromArray(
-					[
-						_elm_lang$html$Html$text('Elm Markdown Ediror')
-					])),
 				A2(
 				_elm_lang$html$Html$div,
 				_elm_lang$core$Native_List.fromArray(
