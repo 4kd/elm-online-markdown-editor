@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5 {
 
 body {
     height: 95%;
+    font-family: "メイリオ", serif;
 }
 
 textarea.inputarea {
@@ -18,7 +19,8 @@ textarea.inputarea {
 
     width: 100%;
     padding-right: 3em;
-    height: 80%;
+    position: relative;
+    height: 100%;
 }
 
 /* see http://purecss.io/grids/ */
@@ -29,7 +31,8 @@ textarea.inputarea {
 }
 
 .panes {
-    height: 80%;
+    position: relative;
+    height: 100%;
     padding: 1em;
 }
 
