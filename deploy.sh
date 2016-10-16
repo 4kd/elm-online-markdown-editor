@@ -1,4 +1,4 @@
 make
-git add -f elm.js index.html
+git add -f .
 git commit -m "Deploy"
 git push -u origin gh-pages
