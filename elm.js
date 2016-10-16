@@ -8036,7 +8036,7 @@ var _evancz$elm_markdown$Markdown$Options = F4(
 		return {githubFlavored: a, defaultHighlighting: b, sanitize: c, smartypants: d};
 	});
 
-var _user$project$MarkdownEditor$defaultText = '# Markdown example\n\n## h2\n\n### h3\n\n#### h4\n\n##### h5\n\nPut *text* here.\n\n```elm\nmain =\n  Html.text \"Syntax highlighting!\"\n```\n';
+var _user$project$MarkdownEditor$defaultText = '# Markdown example\n\n## h2\n\n### h3\n\n#### h4\n\n##### h5\n\nThis is an online markdown editor written in Elm.\n\nPlease put your _texts_ here!\n\n```elm\nmain =\n  Html.text \"Syntax highlighting!\"\n```\n';
 var _user$project$MarkdownEditor$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
 };

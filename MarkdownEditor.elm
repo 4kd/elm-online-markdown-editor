@@ -36,7 +36,9 @@ defaultText = """# Markdown example
 
 ##### h5
 
-Put *text* here.
+This is an online markdown editor written in Elm.
+
+Please put your _texts_ here!
 
 ```elm
 main =
